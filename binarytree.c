@@ -22,6 +22,7 @@ struct node* newnode()
 
 	new->data=data;
 	
+	printf("hello world");
 	printf("you are on left child of %d\n",data);
 	new->left=newnode();
 	printf("you are on right child of %d\n",data);
